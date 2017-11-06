@@ -16,6 +16,7 @@ module ISO3166
       end
     end
 
+
     def initialize(country_data)
       @country_data_or_code = country_data
       reload
@@ -23,6 +24,10 @@ module ISO3166
 
     def valid?
       !(data.nil? || data.empty?)
+    end
+
+    def capital
+      data['capital']
     end
 
     alias zip postal_code

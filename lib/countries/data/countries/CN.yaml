@@ -55,3 +55,7 @@ CN:
         lng: 73.4994136
   currency_code: CNY
   start_of_week: monday
+  capital:
+    name: 北京
+    latitude: 39.9091475
+    longitude: 116.4053726

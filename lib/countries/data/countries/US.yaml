@@ -54,3 +54,7 @@ US:
         lng: 170.5957
   currency_code: USD
   start_of_week: sunday
+  capital:
+    name: Washington, DC
+    latitude: 38.8934678
+    longitude: -77.0388783

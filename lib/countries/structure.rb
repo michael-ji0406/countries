@@ -69,6 +69,11 @@ module ISO3166
       'max_longitude' => nil,
       'min_latitude' => nil,
       'min_longitude' => nil
+    },
+    'capital' => {
+      'name' => nil,
+      'latitude' => nil,
+      'longitude' => nil
     }
   }.freeze
 end
